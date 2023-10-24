@@ -1,0 +1,11 @@
+Aram\kafka\Kafka\UserEventKafkaConsumer.class
+Aram\kafka\controller\UserEventController.class
+Aram\kafka\Kafka\JsonKafkaProducer.class
+Aram\kafka\payload\User.class
+Aram\kafka\controller\TextMessageController.class
+Aram\kafka\config\topicConfig.class
+Aram\kafka\KafkaApplication.class
+Aram\kafka\Kafka\TextMessageKafkaProducer.class
+Aram\kafka\Kafka\KafkaConsumer.class
+Aram\kafka\Kafka\UserEventKafkaConsumerDb.class
+Aram\kafka\Repository\UserRepository.class
