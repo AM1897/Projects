@@ -1,4 +1,4 @@
-# HaveItYourWay-4
+# WeatherAPI
 # Vår väderapplikation
 
 Detta projekt innefattar utveckling av en Java-baserad väderapplikation. Applikationen använder SMHI:s öppna API för att hämta väderprognoser för olika städer i Sverige och lagrar dessa i en MongoDB-databas för snabb och effektiv åtkomst.
