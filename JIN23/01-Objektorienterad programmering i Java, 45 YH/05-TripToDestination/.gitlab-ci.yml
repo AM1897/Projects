@@ -1,0 +1,71 @@
+workflow:
+  rules:
+    - if: $CI_COMMIT_BRANCH != "main" && $CI_PIPELINE_SOURCE != "merge_request_event"
+      when: never
+    - when: always
+
+image: maven:3.9.3-amazoncorretto-17-debian
+
+stages:
+  - build_environment
+  - test_code
+  - test_doc
+
+cache:
+  paths:
+    - .m2/repository
+
+build:
+  stage: build_environment
+  tags:
+    - docker
+    - self-host
+    - ubuntu
+  script: mvn compile --batch-mode
+
+run_juni_test_on_code:
+  stage: test_code
+  tags:
+    - docker
+    - self-host
+    - ubuntu
+  script: mvn test --batch-mode
+  artifacts:
+    when: always
+    paths:
+      - target/surefire-reports/*.xml
+    reports:
+      junit: target/surefire-reports/*.xml
+
+run_test_on_documentation_G:
+  stage: test_doc
+  tags:
+    - docker
+    - self-host
+    - ubuntu
+  image: python:3.11.4-alpine3.17
+  script:
+    - pip install regex
+    - python check_documentation.py
+
+run_test_on_documentation_VG:
+  stage: test_doc
+  tags:
+    - docker
+    - self-host
+    - ubuntu
+  image: python:3.11.4-alpine3.17
+  script:
+    - pip install regex
+    - python check_documentation_vg.py
+
+run_test_on_readme:
+  stage: test_doc
+  tags:
+    - docker
+    - self-host
+    - ubuntu
+  image: python:3.11.4-alpine3.17
+  script:
+    - pip install regex
+    - python check_readme.py
