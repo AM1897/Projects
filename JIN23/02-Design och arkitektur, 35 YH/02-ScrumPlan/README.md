@@ -50,6 +50,6 @@ Detta är också ett möte vid slutet av varje sprint, men fokuserar på teamdyn
 
 Sprintmålet är en kort, tydlig beskrivning av vad teamet hoppas uppnå under den kommande sprinten. Det bör koppla ihop user stories i sprinten till en övergripande vision för vad teamet vill åstadkomma. T.ex. "Vårt mål för denna sprinten är att implementera funktionaliteten för hyresgäster att rapportera problem till företaget och vaktmästaren.
 
-![Presentation](01-Scrum)
-![Presentation](02-Scrum)
+![Presentation](./01-Scrum)
+![Presentation](./02-Scrum)
 
