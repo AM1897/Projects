@@ -2,7 +2,7 @@
 
 Trello Planering https://trello.com/b/939TzcQ6/scrum-plan 
 
-## Projektrapport: Scram Plan 
+## Projektrapport: Scrum Plan 
 
 ## Projektbeskrivning:
 
