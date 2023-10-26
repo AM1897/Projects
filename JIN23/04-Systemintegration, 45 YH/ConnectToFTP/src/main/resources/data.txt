@@ -1,0 +1,5 @@
+
+
+Detta är min textfil! Den är viktig!
+Detta är en ny rad
+och tredje raden är bäst
