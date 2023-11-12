@@ -1,6 +1,3 @@
-# Creating a README.md file with the detailed content provided
-
-detailed_readme_content = """
 # Chat Server och Klienter
 
 ## Beskrivning
@@ -29,12 +26,3 @@ Detta projekt implementerar en enkel chatserver och två klientapplikationer. Se
 
 ## Licens
 - Specificera den licens du vill använda för ditt projekt, till exempel MIT, GPL, etc.
-"""
-
-# Save to a file
-detailed_readme_path = "/mnt/data/README_Detailed.md"
-with open(detailed_readme_path, "w") as file:
-    file.write(detailed_readme_content)
-
-detailed_readme_path
-
