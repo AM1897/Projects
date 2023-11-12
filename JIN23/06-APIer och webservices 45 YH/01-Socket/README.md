@@ -4,7 +4,7 @@
 Detta projekt implementerar en enkel chatserver och två klientapplikationer. Servern koordinerar meddelanden mellan klienterna, vilket möjliggör kommunikation mellan dem via servern.
 
 ## Förutsättningar
-- Java Development Kit (JDK), rekommenderad version är JDK 17 eller senare.
+- Java Development Kit (JDK), rekommenderad version är JDK 21 eller senare.
 - Maven, för att bygga och hantera projektberoenden.
 
 ## Installation
@@ -16,10 +16,6 @@ Detta projekt implementerar en enkel chatserver och två klientapplikationer. Se
 - För att starta servern, kör.
 - För att starta klienterna, kör.
 - När klienterna är igång, kan användare skriva och skicka meddelanden till varandra genom servern.
-
-## Testning
-- Testa applikationen genom att starta servern och ansluta båda klienterna.
-- Skriv meddelanden i en klient och se till att de visas korrekt i den andra klienten.
 
 ## Bidrag
 - Bidrag till projektet är välkomna. Skapa gärna en pull-förfrågan eller öppna ett problem via Git-repositoriet.
