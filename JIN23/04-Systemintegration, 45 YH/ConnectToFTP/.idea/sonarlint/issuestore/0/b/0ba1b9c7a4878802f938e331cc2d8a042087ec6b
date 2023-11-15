@@ -7,7 +7,6 @@
 java:S2095S"EUse try-with-resources or close this "Scanner" in a "finally" clause.(‘½Îüÿÿÿÿ
 W
 java:S1075"ARefactor your code to get this URI from a customizable parameter.(Î¨Œ¯
-Q	java:S125"<This block of commented-out lines of code should be removed.(ÿ·‹Á
 Z
 java:S21475"DCombine this catch with the one at line 51, which has the same body.(ï­£Ä
 Z

@@ -17,14 +17,6 @@ c
 3src/test/java/Aram/kafka/KafkaApplicationTests.java,1\e\1e950c9aaf2c363ea27589a8f4a4a56af6dc2f68
 Z
 *src/test/java/Aram/kafka/DatabaseTest.java,1\1\11b8bb733dcee785bc063c02206ed5ba09e2f868
-B
-docker-compose.yml,3\5\35b8c13cf2eb2a194eada000eb310d65aed53b2a
-8
-mvnw.cmd,1\f\1f1763f358c257ea3515417352b82b0165647ad1
-4
-mvnw,5\d\5d837c4ed85ecaaf932c506e80ff5d7b9f3d590d
-7
-HELP.md,1\a\1a273f73b7a477b0745593641bd708a6182c7ad5
 l
 <src/main/java/Aram/kafka/Kafka/TextMessageKafkaProducer.java,0\c\0ce732a3ec9805d7bfd314dc6384e6451d7804d2
 9
