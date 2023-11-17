@@ -6,7 +6,6 @@ import pro.aram.ChatAPI.Entity.User;
 import pro.aram.ChatAPI.Repository.UserRepository;
 
 import java.util.List;
-import java.util.NoSuchElementException;
 import java.util.Optional;
 
 @Service
