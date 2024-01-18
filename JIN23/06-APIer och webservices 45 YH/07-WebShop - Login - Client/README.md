@@ -53,3 +53,5 @@ Vi välkomnar bidrag till projektet! Läs vår [bidragsguide](CONTRIBUTING.md) f
 ### Licens
 
 Detta projekt är licensierat under MIT. Se [LICENSE-filen](LICENSE) för mer information.
+
+Aram
