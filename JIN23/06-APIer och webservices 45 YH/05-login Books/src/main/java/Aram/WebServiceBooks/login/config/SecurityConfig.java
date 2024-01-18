@@ -29,8 +29,8 @@ public class SecurityConfig {
     @Bean
     public SecurityFilterChain securityFilterChain(HttpSecurity http) throws Exception {
         http
-                .csrf(csrf -> csrf.disable()) // Nytt sätt att inaktivera CSRF
-                .authorizeHttpRequests((requests) -> requests
+                .csrf(csrf -> csrf.disable())
+                .authorizeHttpRequests((authz) -> authz
                         .requestMatchers("/auth/register", "/auth/login").permitAll()
                         .requestMatchers(HttpMethod.GET, "/books/**").permitAll()
                         .requestMatchers("/books/**").hasAuthority("ROLE_ADMIN")
@@ -55,6 +55,3 @@ public class SecurityConfig {
         return daoAuthenticationProvider;
     }
 }
-
-
-
