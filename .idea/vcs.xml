@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/JIN23/01-Objektorienterad programmering i Java, 45 YH/01-Calc.temperatur.converter" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/JIN23/01-Objektorienterad programmering i Java, 45 YH/02-CharacterAgeFilterandAnalysis" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/JIN23/01-Objektorienterad programmering i Java, 45 YH/03-NameRegister-CRUD" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/JIN23/01-Objektorienterad programmering i Java, 45 YH/04-HangMan" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/JIN23/01-Objektorienterad programmering i Java, 45 YH/06-TeamWork-TheGame" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/JIN23/02-Design och arkitektur, 35 YH/02-MovieDatabase" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/JIN23/02-Design och arkitektur, 35 YH/03-MongoDB Facade &amp; CRUD" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/JIN23/02-Design och arkitektur, 35 YH/04-Weather SMHI API" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/JIN23/03-Kvalitetssäkring i Java, 30 YH/04-Weather TDD Mocka" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/JIN23/03-Kvalitetssäkring i Java, 30 YH/05-Todo TDD mocka" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/JIN23/04-Systemintegration, 45 YH/ConnectToFTP" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/JIN23/04-Systemintegration, 45 YH/Kafka API Management Project" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/JIN23/04-Systemintegration, 45 YH/Kafka User Event Service" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/JIN23/06-APIer och webservices 45 YH/01-Socket" vcs="Git" />
+  </component>
+</project>
