@@ -62,14 +62,14 @@ public class Main {
         scanner.close();
     }
 
-    private static MongoClient create(String host, int port) {
+    static MongoClient create(String host, int port) {
         return MongoClients.create(
                 MongoClientSettings.builder()
                         .applyToClusterSettings(builder ->
                                 builder.hosts(Arrays.asList(new ServerAddress(host, port))))
                         .build());
     }
-    private static boolean userExists(MongoCollection<Document> usersCollection, String username) {
+    static boolean userExists(MongoCollection<Document> usersCollection, String username) {
         Document user = usersCollection.find(new Document("username", username)).first();
         return user != null;
     }
