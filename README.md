@@ -1,2 +1,1 @@
-# YH
-Campus Molndal
+# In this collection, there are many projects. For many of them, I have not yet had the chance to write detailed descriptions. However, everything is fully functional, and I will soon add instructions on how you can engage with these projects. They are not large projects; they are relatively easy to get started with.
